@@ -1,5 +1,3 @@
-!pip install streamlit pandas pytrends
-
 import streamlit as st
 import pandas as pd
 from pytrends.request import TrendReq
