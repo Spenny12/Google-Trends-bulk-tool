@@ -1,4 +1,4 @@
-pip install streamlit pandas pytrends
+!pip install streamlit pandas pytrends
 
 import streamlit as st
 import pandas as pd
