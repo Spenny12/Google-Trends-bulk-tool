@@ -147,7 +147,6 @@ def main():
                 final_df = fetch_trends_data(queries, time_range)
                 
                 if final_df is not None:
-                    st.balloons()
                     st.success("✅ Data fetching complete!")
                     
                     st.dataframe(final_df)
