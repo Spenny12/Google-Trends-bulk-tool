@@ -85,7 +85,7 @@ def main():
         initial_sidebar_state="expanded"
     )
 
-    st.title("📈 Bulk Google Trends Data Fetcher")
+    st.title("Bulk Google Trends Data Fetcher")
     st.markdown("""
         Upload a **CSV file** containing your search queries (one query per row/cell in the first column). 
         The tool will use `pytrends` to fetch the **Interest Over Time** data for each query.
@@ -147,7 +147,7 @@ def main():
                 final_df = fetch_trends_data(queries, time_range)
                 
                 if final_df is not None:
-                    st.success("✅ Data fetching complete!")
+                    st.success("Data fetching complete")
                     
                     st.dataframe(final_df)
                     
